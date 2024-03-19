@@ -1,0 +1,247 @@
+/* Add your styles here */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+#welcomehead {
+    z-index: 999;
+    padding-top: 100px;
+}
+
+.welcome {
+  padding-top: 100px;
+}
+
+header {
+    text-align: center;
+    z-index: 999;
+}
+#popup {
+  position: absolute;
+  top:200px;
+  padding: 0,0,0,0;
+  margin-top: 0;
+  margin-left: 0px;
+  margin-bottom: 80px;
+  width: 140px;
+  height: 20px;
+  background-color: black;
+  display: none; /* Initially hidden */
+  color: rgb(36, 255, 36);
+  vertical-align: top;
+  text-align: center;
+  font-size: large;
+                
+}   
+
+.ips {
+  vertical-align: top;
+}
+#clientip {
+  width:500px;
+  display: inline;
+  vertical-align: top;
+  font-size: 18px;
+}
+#serverip {
+  text-align: right;
+  padding-top: 0;
+  margin-top: 0;
+  right:250px;
+  display: inline;
+  vertical-align: top;
+  font-size: 18px;
+  position:absolute;
+}
+#computer {
+  border: none;
+}
+#envelope1 {
+  margin-left: 250px;
+  border: none;
+}
+#envelope2 {
+  margin-left: 250px;
+  border: none;
+}
+#envelope3 {
+  margin-left: 250px;
+  border: none;
+}
+
+#deco {
+  display: inline;
+  float: right;
+  margin-left: 100px;
+  border: none;
+}
+#bigwelcome {
+  float: left;
+  width: 75%;
+}
+body .welcome #deco {
+    float: right;
+}
+    
+
+ol {
+    list-style-type: none; /* Removes the default numbering */
+}
+h3 {
+    color: red;
+}
+h2 {
+    color: red;
+}
+#welcome {
+    color: red;
+    text-align: center;
+    display: block;
+    padding: 100;
+    margin: 100;
+    position: absolute;
+    z-index: 998;
+}
+
+p {
+    color: black;
+}
+
+strong {
+    color: red;
+}
+
+.timeandtemp {
+  float: left;
+  margin-right: 25%;
+}
+
+button {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#ui_img {
+    float: right;
+}
+.nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .nav a {
+    text-align: center;
+    font-size: large;
+    float: center;
+    
+  }
+  .nav-home{
+    top:0 ;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 996;
+  }
+  .nav-home li {
+    float: left;
+    color: red;
+    
+    border-right: 1px solid red;
+    padding: 0;
+    
+  }
+  .nav-home li:last-child {
+    float: right;
+    padding-right: 25px;
+  }
+  .nav-home li a{
+    display: block;
+    font-size: 20pt;
+    color: rgb(255, 0, 0);
+    padding: 14px 16px;
+    text-align: center;
+  }
+  .nav-home ol {
+    background-color: rgb(192, 191, 191);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 997;
+    opacity: .9;
+  }
+
+  .show {
+    display: block !important; /* Show the element */
+}
+  .hide {
+    display: none;
+  }
+@media (min-width: 1640px) {
+
+
+    .navbar-toggler {
+        display: none;
+    }
+    #raspi {
+      right: 0px;
+      border: none;
+      position: absolute;
+      padding-bottom: 0px;
+    
+    }
+}
+
+.transparent-background {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value to control transparency */
+}
+@media (max-width: 1640px) {
+.navbar-nav {
+  display: none;
+}
+.navbar-toggler {
+    display:block;
+    left: 0px;
+    font-size: 20pt;
+    opacity: .8;
+}
+  #raspi {
+    right: 0px;
+    border: none;
+    position: absolute;
+    padding-bottom: 0px;
+  
+  }
+  #serverip {
+    font-size: 6pt;
+    display: inline-block;
+    right:10px;
+    width:30%;
+  }
+  #clientip {
+    display: inline-block;
+    font-size: 6pt;
+    left:0px;
+    width: 30%;
+  }
+}
